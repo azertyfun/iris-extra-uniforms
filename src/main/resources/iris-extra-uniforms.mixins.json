@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "eu.e4b4.iris_extra_uniforms.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

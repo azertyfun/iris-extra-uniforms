@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "eu.e4b4.iris_extra_uniforms.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"UniformMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

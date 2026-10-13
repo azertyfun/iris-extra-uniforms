@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "iris-extra-uniforms",
+	"version": "${version}",
+	"name": "iris-extra-uniforms",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/iris-extra-uniforms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"eu.e4b4.iris_extra_uniforms.IrisExtraUniforms"
+		],
+		"client": [
+			"eu.e4b4.iris_extra_uniforms.client.IrisExtraUniformsClient"
+		]
+	},
+	"mixins": [
+		"iris-extra-uniforms.mixins.json",
+		{
+			"config": "iris-extra-uniforms.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
